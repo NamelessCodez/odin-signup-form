@@ -30,7 +30,7 @@ img {
 .paragraph-container {
     font-size: 28px;
     font-weight: bold;
-    padding: 250px 280px 60px 50px; 
+    padding: 250px 300px 60px 50px; 
     background-color: #f9f9f9;
 }
 
@@ -54,6 +54,7 @@ input {
     height: 40px;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
+    padding: 0;
 }
 
 form {
@@ -72,5 +73,43 @@ input[type='password']:invalid  {
 }
 
 input:focus {
+    outline: none;
     border-color: blue;
+}
+
+.button-container {
+    padding: 30px 300px 50px 50px;
+    background-color: #f9f9f9;
+    height: auto;
+}
+
+button {
+    background-color: #596D48;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 48px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.button-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-container span {
+    color:  #596D48;
+}
+
+.logo-container + p {
+    color: white;
+    text-align: center;
+    margin-top: 600px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
 }
